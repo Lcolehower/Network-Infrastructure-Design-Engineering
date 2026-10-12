@@ -1,0 +1,28 @@
+ I created a Campus Level topology that follows a Collapse-Core architecture.
+
+Created a network topology using Packet Tracer.
+Hierarchical Network Design.
+Connecting Correct cabling (RJ45, SM Fiber, RJ11..etc).
+Configuring Basic device settings(hostname, console password,exec password, password encryption, SSH, exec Timeout, logging sync..)
+Creating VLANs and assignning IP Addressing.
+Configuring Inter-VLAN Routing on Layer 3 Switches which are my Core and Distribution Layer
+Configuring SVI's, Trunk ports and Access ports an each access switch (FL1, Executive Switch)
+Configuring DHCP Server device to provide dynamic IP for each network 
+Configuring DNS Server resolving intranet Web Page and Public Web Page from ISP
+Configuring Web server hosting personal Resume, and ISP Homepage
+Configured Email Server, AAA / Radious Server, and NTP Server
+  All devices are synched, Emails can be sent / received, and Devices are authenticated by AAA Server
+Configuring SSH for secure Remote access.
+Configuring OSPF EIGRP redistribution Intranet to Transit Network.
+Configuring EIGRP BGP redistribution for Transit Network to SD-WAN
+Used Default Routing to allow transport back for Internet + Intranet Communication
+Configurinh HSRP for full stack reduncancy 
+Configuring GRE Tunneling within Intranet 
+Configuring switchport security on Access Switchs
+Used Cisco 2911 Router to act as Edge routing. This has NAT from Intranet to Transit Network
+Test and Verifying Network Communication.
+
+All done and successful. 
+
+I have also provided an excel file with the IP Scheme
+I will continue to grow this Network in the future with more configurations.
